@@ -1,0 +1,58 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
+
+
+
+.item-1, 
+.item-2, 
+.item-3,
+.item-4{
+  position: absolute;
+  left: 100px;
+  top: 1700px;
+  
+  width: 60%;
+  
+  font-size: 2em;
+
+	animation-duration: 40s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+}
+
+.item-1{
+	animation-name: anim-1;
+}
+
+.item-2{
+	animation-name: anim-2;
+}
+
+.item-3{
+	animation-name: anim-3;
+}
+.item-4{
+	animation-name: anim-4;
+}
+
+@keyframes anim-1 {
+	0%, 2.3% { left: -100%; opacity: 0; }
+  2.3%,10% { left: 25%; opacity: 1; }
+  20.33%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-2 {
+	0%, 15.33% { left: -100%; opacity: 0; }
+  18.63%, 26.3% { left: 25%; opacity: 1; }
+  35.66%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-3 {
+	0%, 28.66% { left: -100%; opacity: 0; }
+  33%, 40.3% { left: 25%; opacity: 1; }
+  50.99%, 100% { left: 110%; opacity: 0; }
+  }
+@keyframes anim-4 {
+	0%, 40.66% { left: -100%; opacity: 0; }
+  48.66%, 54% { left: 25%; opacity: 1; }
+  100% { left: 110%; opacity: 0; }
+}
